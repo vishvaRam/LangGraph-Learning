@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch
+torchvision
+sentence-transformers
+
+uv
+ipykernel
+ipywidgets
+langchain_community
+langchain_huggingface
+langgraph-prebuilt
+langgraph
+langchain-google-genai 
+langchain-core
+python-dotenv
+langsmith
+google-genai
+
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
