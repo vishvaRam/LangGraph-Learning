@@ -19,6 +19,7 @@ langchain-google-genai
 langgraph
 langgraph-prebuilt
 langgraph-checkpoint-postgres
+langchain_tavily
 
 # Google GenAI SDK
 google-genai
