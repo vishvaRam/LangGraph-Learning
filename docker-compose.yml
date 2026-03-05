@@ -5,12 +5,11 @@ services:
     volumes:
       - .:/app
     ports:
-      - "1234:1234"
+      - "7676:7676"
     extra_hosts:
       - "host.docker.internal:host-gateway"
     environment:
       - PYTHONUNBUFFERED=1      # real-time stdout logs
       - PYTHONDONTWRITEBYTECODE=1
-
     stdin_open: true
     tty: true
